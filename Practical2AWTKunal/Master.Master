@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="Practical2AWTKunal.Master" %>
+
+<!DOCTYPE html> 
+<html> 
+<head runat="server"> 
+    <title>Maharashtra Tourist Place</title> 
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder> 
+<style>     
+    .home{ 
+        background:url("./images/tourist.jpg");         
+        background-size:cover;         
+        background-position:center;         
+        height:690px;         
+        overflow:hidden; 
+    } 
+    .heading 
+    { 
+        text-align:center;         
+        font-family:poppnic,sans-serif;         
+        transform:translateY(200px);         
+        font-size:100px; 
+    } 
+    .Ptext 
+    { 
+        text-align:center;         
+        font-family:poppnic,sans-serif;         
+        transform:translateY(190px);         
+        font-size:20px;         
+        font-weight:bold; 
+ 
+    } 
+</style> 
+</head> 
+<body> 
+    <form id="form1" runat="server"> 
+        <div class="home"> 
+            <h1 class="heading"><span style="color:">Maharashtra</span> Tourism</h1> 
+            <p class="Ptext">Explore Maharashtra Tourist Places With Friends And Family...!</p>         </div> 
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder> 
+    </form> 
+</body> 
+</html>
