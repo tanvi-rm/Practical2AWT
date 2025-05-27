@@ -1,4 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Order.aspx.cs" Inherits="Practical2AWTKunal.Order" %>
+2. Design asp.net web application to generate hotel bill. Accept Customer Id, Customer name, address,
+menu items, quantity, and price per item. Apply 5% GST on total. Display bill on another web form. Use
+appropriate validation controls.
+
+
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Order.aspx.cs" Inherits="Practical2AWTKunal.Order" %>
 
 <!DOCTYPE html>
 <html>
