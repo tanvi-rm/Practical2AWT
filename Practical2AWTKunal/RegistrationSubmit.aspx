@@ -1,4 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RegistrationSubmit.aspx.cs" Inherits="Practical2AWTKunal.RegistrationSubmit" %>
+Design asp.net registration web form to register for online programming courses. Use appropriate
+validation controls. Consider the fields as candidate id, name, address, age, gender, password, confirm
+password, course name, batch etc. And show the data on another form once registration is done. Use
+appropriate validation controls.
+
+
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RegistrationSubmit.aspx.cs" Inherits="Practical2AWTKunal.RegistrationSubmit" %>
 
 <!DOCTYPE html> 
 <html xmlns="http://www.w3.org/1999/xhtml"> 
