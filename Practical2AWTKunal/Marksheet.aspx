@@ -1,4 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Marksheet.aspx.cs" Inherits="Practical2AWTKunal.Marksheet" %>
+Design asp.net web application to accept students roll number, name, address and mark of five subjects.
+And display mark-sheets which include total marks, percentage and grade along-with student’s details on
+another web form. Use appropriate validation controls.
+
+
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Marksheet.aspx.cs" Inherits="Practical2AWTKunal.Marksheet" %>
 
 <!DOCTYPE html>
 <html>
