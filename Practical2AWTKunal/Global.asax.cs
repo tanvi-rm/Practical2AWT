@@ -1,4 +1,10 @@
-﻿using System;
+Design asp.net registration web form to register for online programming courses. Use appropriate
+validation controls. Consider the fields as candidate id, name, address, age, gender, password, confirm
+password, course name, batch etc. And show the data on another form once registration is done. Use
+appropriate validation controls.
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
